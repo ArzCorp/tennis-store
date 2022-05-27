@@ -1,0 +1,70 @@
+:root {
+	/* COLORS */
+	--color-green: #cbe346;
+	--color-white: #ffffff;
+	--color-black: #2b3049;
+	/* FONT SIZES */
+	--text-extralarge: 2.65rem; /* 53px */
+	--text-large: 2.5rem; /* 50px */
+	--text-big: 0.9rem; /* 18px */
+	--text-medium: 0.8rem; /* 16px */
+	--text-normal: 0.75rem; /* 15px */
+	--text-small: 0.65rem; /* 13px */
+	/* SPACING */
+	--spacing-2x: 10px;
+	--spacing-3x: 15px;
+	--spacing-4x: 20px;
+	--spacing-7x: 35px;
+	--spacing-8x: 40px;
+}
+
+@-moz-document url-prefix() {
+	html {
+		font-size: 20px;
+	}
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: HelveticaNeue;
+}
+
+body {
+	background-color: #2b3049;
+}
+
+@font-face {
+	font-family: HelveticaNeue;
+	src: url('./src/assets/fonts/HelveticaNeue.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: HelveticaNeueBold;
+	src: url('./src/assets/fonts/HelveticaNeueBold.ttf');
+	font-weight: 400;
+}
+
+.title {
+	font-size: var(--text-extralarge);
+	line-height: 68px;
+	letter-spacing: -0.5px;
+}
+
+.subtitle {
+	font-size: var(--text-large);
+	line-height: 57px;
+	letter-spacing: -0.06px;
+}
+
+.text-medium {
+	font-size: var(--text-medium);
+	line-height: normal;
+	letter-spacing: 1.4px;
+}
+
+.bold {
+	font-family: HelveticaNeueBold;
+}
