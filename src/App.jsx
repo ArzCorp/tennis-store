@@ -1,7 +1,9 @@
 import Hero from './components/Hero'
 import Header from './components/Header'
 import History from './components/History'
-import Product from './components/Product'
+import Products from './components/Products'
+import Banner from './components/Banner'
+import Footer from './components/Footer'
 
 function App() {
 	return (
@@ -10,7 +12,9 @@ function App() {
 				<Header />
 			</Hero>
 			<History />
-			<Product />
+			<Products />
+			<Banner />
+			<Footer />
 		</>
 	)
 }
