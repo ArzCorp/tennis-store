@@ -28,7 +28,7 @@ export default function Products() {
 			</div>
 			<div className="products__list">
 				{products.map((product) => (
-					<Product number={product} />
+					<Product key={product} number={product} />
 				))}
 			</div>
 		</section>
